@@ -1,0 +1,41 @@
+---
+  title: "HT6-RegresionLogistica"
+author: "Elean Rivas, Javier Alvarez"
+date: "18/04/2023"
+output: html_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#Librerias que vamos a utilizar para la HT6
+library(dplyr)
+glimpse(mtcars)
+library(tidyr)
+library(rpart)
+library(caret)
+library(tree)
+library(rpart.plot)
+library(randomForest)
+library(dplyr)
+library(tidyr)
+library(cluster)
+library(e1071)
+library(mclust)
+library(fpc)
+library(NbClust)
+library(factoextra)
+library(cluster)
+library(e1071)
+library(mclust)
+library(fpc)
+library(NbClust)
+library(factoextra)
+library(rpart)
+library(corrplot)
+library(dummies)
+library(PerformanceAnalytics)
+library(tictoc)
+```
